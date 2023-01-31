@@ -12,16 +12,16 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { TodoComponent } from './todo/todo.component';
-import { ReferencesComponent } from './references/references.component';
-import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
+import { FavoritesComponent } from './favorites/favorites.component';
 
 //Step 4 - use Routes
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'todo', component: TodoComponent },
-  { path: 'references', component: ReferencesComponent },
-  { path: 'education', component: EducationComponent },
+  { path: 'skills', component: SkillsComponent },
+  { path: 'favorites', component: FavoritesComponent },
 ];
 //Step 5 - use RouterModule
 @NgModule({
